@@ -1,0 +1,23 @@
+body {background-color: lightblue;}
+h2 {color: white;}
+	p{background-color: violet;}
+	
+#para1 {
+	background-color: Tomato;
+	color:yellow;
+}
+
+.ma_couleur{
+	color:#FD34AF;
+	background-color:#202020;
+	padding: 50px;
+}	
+
+.rouge{
+	color: red;
+}
+
+.bleu_centre {
+	color:blue;
+	text-align: center;
+}

@@ -1,0 +1,46 @@
+body{
+    background-image: url(Ow2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+  li{
+    list-style-type: none;
+  }
+
+.slide {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  .slide {
+    color:red;
+  }
